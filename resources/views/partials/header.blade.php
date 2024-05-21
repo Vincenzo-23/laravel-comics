@@ -1,10 +1,18 @@
 <header>
     <nav class="container">
         <ul class="row">
-            <li>Comics</li>
-            <li>About</li>
-            <li>Blog</li>
-            <li>Contacts</li>
+            <li class="col-3">
+                <a href="">Home</a>
+            </li>
+            <li class="col-3">
+                <a href="">Comics</a>
+            </li>
+            <li class="col-3">
+                <a href="">About</a>
+            </li>
+            <li class="col-3">
+                <a href="">Contacts</a>
+            </li>
         </ul>
     </nav>
 </header>
