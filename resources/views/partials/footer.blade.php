@@ -1,17 +1,14 @@
 <footer>
-    <div class="container">
-        <ul class="row">
-            <li class="col-3">
-                <a href="">About us</a>
+    <div class="container p-5">
+        <ul class="row text-center">
+        <li class="col-4">
+                <a href="{{ route('about') }}">About</a>
             </li>
-            <li class="col-3">
-                <a href="">Contacts</a>
+            <li class="col-4">
+                <a href="{{ route('contacts') }}">Contacts</a>
             </li>
-            <li class="col-3">
-                <a href="">Socials</a>
-            </li>
-            <li class="col-3">
-                <a href="">Work with us</a>
+            <li class="col-4">
+                <a href="{{ route('work') }}">Work with us</a>
             </li>
         </ul>
     </div>

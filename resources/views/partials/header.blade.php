@@ -1,17 +1,17 @@
 <header>
-    <nav class="container">
-        <ul class="row">
+    <nav class="container p-5">
+        <ul class="row text-center">
             <li class="col-3">
-                <a href="">Home</a>
+                <a href="{{ route('home') }}">Home</a>
             </li>
             <li class="col-3">
-                <a href="">Comics</a>
+                <a href="{{ route('comics') }}">Comics</a>
             </li>
             <li class="col-3">
-                <a href="">About</a>
+                <a href="{{ route('about') }}">About</a>
             </li>
             <li class="col-3">
-                <a href="">Contacts</a>
+                <a href="{{ route('contacts') }}">Contacts</a>
             </li>
         </ul>
     </nav>
