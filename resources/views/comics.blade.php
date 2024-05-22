@@ -5,12 +5,15 @@
 @section('content')
     <section>
         <div class="container p-5">
-            <div class="row">
+            <div class="row g-4">
                 @foreach($comics as $comic)
-                <div class="card col-2">
-                    <img src="{{ $comic['thumb'] }}" class="card-img-top" alt="Comic cover">
-                    <div class="card-body">
-                        <h5 class="card-title">{{ $comic['series'] }}</h5>
+                <div class="col-2">
+                    <div class="card h-100">
+                        <img src="{{$comic['thumb']}}" class="card-img-top comic_cover" alt="Comic cover">
+                        <div class="card-body">
+                            <p class="card-title fs-4">{{ $comic['title'] }}</p>
+                            <p class="card-text">{{ $comic['series'] }}</p>
+                        </div>
                     </div>
                 </div>
                 @endforeach
